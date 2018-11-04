@@ -53,4 +53,4 @@ def tile(points, depth):
 tile(points, depth)
 turtle.update()
 
-turtle.getcanvas().postscript(file="Sierpinski_Carpet_Vector_Map.eps")
+turtle.getcanvas().postscript(file="Sierpinski Carpet Vector Map Depth=" + str(depth) + ".eps")
